@@ -5,8 +5,8 @@ import os
 from datetime import datetime
 import pytz
 
-BOT_TOKEN = os.getenv("BOT_TOKEN",)
-CHAT_ID = os.getenv("CHAT_ID")
+BOT_TOKEN = os.getenv("BOT_TOKEN","8726552111:AAGPZ-DlKsfF4uP57OIK3k7mpWO8QjOCjbs")
+CHAT_ID = os.getenv("CHAT_ID","8495972050")
 
 WIB = pytz.timezone("Asia/Jakarta")
 
